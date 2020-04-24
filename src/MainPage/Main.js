@@ -12,9 +12,9 @@ class Main extends Component {
     return (
         <div className={styles.wrapper}>
           <div className={styles.hatFoot}>Header</div>
-          <div className={styles.header}>
+          <div className={styles.wrap}>
           <div className={styles.conteiner1}>
-            <div className={styles.section}>1</div>
+            <div>1</div>
             <div>2</div>
           </div>
             <div className={styles.conteiner2}>

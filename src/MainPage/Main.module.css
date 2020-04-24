@@ -3,24 +3,32 @@
     min-width: 100%;
     min-height: 100%;
     margin: 1em;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+
+
  }
-.content {
+.wrap {
     display: flex;
-    flex: 1 200px;
-    min-width: 100%;
-    min-height: 100%;
-    margin: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
+
 .conteiner1 {
     display: flex;
     flex-flow: row;
-    flex: 1 200px;
-    min-width: 100%;
-    min-height: 90vh;
+    width: 100%;
+    height: 40%;
+    margin: 1.5em;
+    flex-wrap: wrap;
+
+
 }
 
 .conteiner1 > div {
-    flex-flow: row wrap;
+
     display: flex;
     flex:  1 200px;
     border: greenyellow solid 5px;
@@ -30,6 +38,8 @@
     height: 15em;
     color: snow;
     padding: 2em;
+    position: relative;
+
 
 }
 .hatFoot {
@@ -43,15 +53,19 @@
 }
 
 .conteiner2 {
+    position: relative;
     display: flex;
     flex-flow: row;
-    flex: 1 200px;
-    min-width: 100%;
-    min-height: 90vh;
+    width: 100%;
+    height: 60%;
+    flex-wrap: wrap;
+    margin: 1.5em;
+
+
+
 }
 
 .conteiner2 > div {
-    flex-flow: row wrap;
     display: flex;
     flex:  1 200px;
     border: greenyellow solid 5px;
@@ -61,5 +75,6 @@
     height: 15em;
     color: snow;
     padding: 2em;
+
 
 }

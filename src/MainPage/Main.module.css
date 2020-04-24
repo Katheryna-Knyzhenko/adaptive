@@ -21,10 +21,7 @@
     flex-flow: row;
     width: 100%;
     height: 40%;
-    margin: 1.5em;
     flex-wrap: wrap;
-
-
 }
 
 .conteiner1 > div {
@@ -34,11 +31,14 @@
     border: greenyellow solid 5px;
     background-color: gainsboro;
     width: 15vw;
-    margin: 1.5em;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    margin-right: 1.5em;
     height: 15em;
     color: snow;
     padding: 2em;
     position: relative;
+    margin-bottom: 0.7em;
 
 
 }
@@ -59,7 +59,6 @@
     width: 100%;
     height: 60%;
     flex-wrap: wrap;
-    margin: 1.5em;
 
 
 
@@ -71,10 +70,13 @@
     border: greenyellow solid 5px;
     background-color: gainsboro;
     width: 15vw;
-    margin: 1.5em;
     height: 15em;
     color: snow;
     padding: 2em;
+    margin-left: 1.5em;
+    margin-top: 0.7em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
 
 
 }

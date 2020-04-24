@@ -1,0 +1,43 @@
+.wrapper {
+    background: rgba(206, 171, 107, 0.2);
+    min-width: 100%;
+    min-height: 100%;
+    margin: 1em;
+ }
+.header {
+    display: flex;
+    flex-direction: row;
+    flex: 1 200px;
+    min-width: 100%;
+    min-height: 100%;
+}
+.conteiner {
+    display: flex;
+    flex-flow: row;
+    flex: 1 200px;
+    min-width: 100%;
+    min-height: 90vh;
+}
+
+.conteiner > div {
+    flex-flow: row wrap;
+    display: flex;
+    flex:  1 200px;
+    border: greenyellow solid 5px;
+    background-color: gainsboro;
+    width: 15vw;
+    margin: 1.5em;
+    height: 15em;
+    color: snow;
+    padding: 2em;
+
+}
+.content {
+    display: flex;
+    background-color: gainsboro;
+    height: 3vh;
+    padding: 2em;
+    color: snow;
+    justify-content: center;
+    border: greenyellow solid 5px;
+}

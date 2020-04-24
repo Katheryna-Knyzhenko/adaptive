@@ -4,14 +4,14 @@
     min-height: 100%;
     margin: 1em;
  }
-.header {
+.content {
     display: flex;
-    flex-direction: row;
     flex: 1 200px;
     min-width: 100%;
     min-height: 100%;
+    margin: 1em;
 }
-.conteiner {
+.conteiner1 {
     display: flex;
     flex-flow: row;
     flex: 1 200px;
@@ -19,7 +19,7 @@
     min-height: 90vh;
 }
 
-.conteiner > div {
+.conteiner1 > div {
     flex-flow: row wrap;
     display: flex;
     flex:  1 200px;
@@ -32,7 +32,7 @@
     padding: 2em;
 
 }
-.content {
+.hatFoot {
     display: flex;
     background-color: gainsboro;
     height: 3vh;
@@ -40,4 +40,26 @@
     color: snow;
     justify-content: center;
     border: greenyellow solid 5px;
+}
+
+.conteiner2 {
+    display: flex;
+    flex-flow: row;
+    flex: 1 200px;
+    min-width: 100%;
+    min-height: 90vh;
+}
+
+.conteiner2 > div {
+    flex-flow: row wrap;
+    display: flex;
+    flex:  1 200px;
+    border: greenyellow solid 5px;
+    background-color: gainsboro;
+    width: 15vw;
+    margin: 1.5em;
+    height: 15em;
+    color: snow;
+    padding: 2em;
+
 }

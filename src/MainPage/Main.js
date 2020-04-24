@@ -11,17 +11,19 @@ class Main extends Component {
 
     return (
         <div className={styles.wrapper}>
-          <div className={styles.content}>Header</div>
-          <header className={styles.header}>
-          <div className={styles.conteiner}>
+          <div className={styles.hatFoot}>Header</div>
+          <div className={styles.header}>
+          <div className={styles.conteiner1}>
             <div className={styles.section}>1</div>
             <div>2</div>
+          </div>
+            <div className={styles.conteiner2}>
             <div>3</div>
             <div>4</div>
             <div>5</div>
           </div>
-          </header>
-          <div className={styles.content}>Footer</div>
+          </div>
+          <div className={styles.hatFoot}>Footer</div>
         </div>
     )
   }

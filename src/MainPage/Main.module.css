@@ -1,6 +1,5 @@
 .wrapper {
     background: rgba(206, 171, 107, 0.2);
-    min-width: 100%;
     min-height: 100%;
     margin: 1em;
     flex-wrap: wrap;
@@ -16,6 +15,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     flex: 1 1 auto;
+    max-width: 1500px;
 
 }
 
@@ -123,5 +123,26 @@ img {
     }
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 1500px ) {
+    .wrap {
+        max-width: 1200px;
+    }
+}
+@media (max-width: 1200px ) {
+    .wrap {
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px ) {
+    .wrap {
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px ) {
+    .wrap {
+        max-width: none;
     }
 }

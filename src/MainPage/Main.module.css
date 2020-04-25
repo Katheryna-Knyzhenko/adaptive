@@ -17,6 +17,7 @@
     flex: 1 1 auto;
     max-width: 1500px;
 
+
 }
 
 .conteiner1 {
@@ -128,7 +129,7 @@ img {
 
 @media (max-width: 1500px ) {
     .wrap {
-        max-width: 1200px;
+        max-width: 1365px;
     }
 }
 @media (max-width: 1200px ) {

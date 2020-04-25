@@ -54,6 +54,7 @@
     justify-content: center;
     border: greenyellow solid 5px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: .2s linear;
 }
 
 .conteiner2 {
@@ -94,4 +95,5 @@
 }
 .hatFoot:hover {
     background-color: black;
+    box-shadow: 0 0 0 2px #D2973D inset, 0 0 0 4px white inset;
 }

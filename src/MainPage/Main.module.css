@@ -6,6 +6,8 @@
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 
 
  }
@@ -13,6 +15,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex: 1 1 auto;
 
 }
 
@@ -55,6 +58,7 @@
     border: greenyellow solid 5px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: .2s linear;
+    flex: 0 0 auto;
 }
 
 .conteiner2 {
@@ -96,4 +100,15 @@
 .hatFoot:hover {
     background-color: black;
     box-shadow: 0 0 0 2px #D2973D inset, 0 0 0 4px white inset;
+}
+
+img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2%;
+    box-shadow: inset 0 0 12px 8px rgba(0,0,0,.6);
+    border-radius: 2%;
+
 }

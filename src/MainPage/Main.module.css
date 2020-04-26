@@ -132,26 +132,26 @@ img {
 
 @media (min-width: 1500px ) {
     .wrap {
-        max-width: 1370px;
+        min-width: 1370px;
     }
 }
 @media (min-width: 1200px ) {
     .wrap {
-        max-width: 970px;
+        min-width: 970px;
         font-size: 45px;
         margin: 0 0 40px 0;
     }
 }
 @media (min-width: 992px ) {
     .wrap {
-        max-width: 750px;
+        min-width: 750px;
         font-size: 40px;
         margin: 0 0 30px 0;
     }
 }
 @media (min-width: 767px ) {
     .wrap {
-        max-width: none;
+        min-width: 544px;
         font-size: 20px;
         margin: 0 0 15px 0;
     }

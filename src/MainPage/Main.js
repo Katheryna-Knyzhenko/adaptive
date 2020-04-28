@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import styles from './Main.module.css';
 import $ from 'jquery';
 
+
 class Main extends Component {
   constructor() {
     super();
@@ -35,7 +36,7 @@ $('#title').click(function(event) {
 
             <div className={styles.hatFoot}>
             <div className={styles.block}>
-                <div id = 'title' className={styles.block_title}>Header</div>
+                <div id = 'title' className={styles.block_title}>Footer</div>
                 <div className={styles.block_text}>Текст</div>
             </div>
         </div>

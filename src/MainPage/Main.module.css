@@ -235,3 +235,6 @@ content: '';
     left: 7px;
 
 }
+.block_title.active:before, .block_title.active:after {
+    background-color: red;
+}

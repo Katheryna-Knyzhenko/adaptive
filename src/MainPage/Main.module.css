@@ -153,6 +153,14 @@
         margin: 0 0 40px 0;
     }
 }
+@media (min-width: 1500px ) {
+    .wrapper {
+        min-width: 1200px;
+        background-color: green;
+        margin: 0 0 30px 0;
+    }
+
+}
 @media (min-width: 992px ) {
     .wrapper {
         min-width: 750px;
@@ -161,7 +169,7 @@
     }
 
 }
-@media  (width: 768px ){
+@media  (min-width: 768px ) {
     .wrapper {
         min-width: 411px;
 
@@ -185,10 +193,11 @@
         margin: 0 0 10px 0;
     }
 }
-@media (min-width: 1024px ) {
+@media (min-width: 1024px )  {
     .wrapper {
         min-width: 750px;
         margin: 0 0 30px 0;
         font-size: 20px;
+        background-color: lightblue;
     }
 }

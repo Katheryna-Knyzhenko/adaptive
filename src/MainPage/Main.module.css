@@ -55,12 +55,12 @@
     background-color: gainsboro;
     height: 3vh;
     padding: 2em;
-    color: snow;
     justify-content: center;
     border: greenyellow solid 5px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: .2s linear;
     flex: 0 0 auto;
+    color: green;
 }
 
 .conteiner2 {
@@ -203,4 +203,35 @@
         font-size: 20px;
         background-color: lightblue;
     }
+}
+
+.block_title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 0 0 0 30px;
+    cursor: pointer;
+}
+.block_text {
+    padding:  10px 0 0 0;
+    display: none;
+}
+.block_title:before {
+    transform: rotate(40deg);
+    left: 0;
+
+}
+.block_title:after, .block_title:before {
+content: '';
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    background-color: green;
+    top: 7px;
+
+}
+.block_title:after {
+    transform: rotate(-40deg);
+    left: 7px;
+
 }

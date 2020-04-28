@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import styles from './Main.module.css';
+import $ from 'jquery';
 
 class Main extends Component {
   constructor() {
@@ -8,7 +9,11 @@ class Main extends Component {
   }
 
   render() {
-
+$(document).ready(function(){
+$('#title').click(function(event) {
+    $(this).toggleClass('active').next().slideToggle(300);
+})
+});
     return (
         <div className={styles.wrapper}>
           <div className={styles.hatFoot}>Header</div>
@@ -28,7 +33,12 @@ class Main extends Component {
             <hr></hr>
             <img className={styles.monster} src='https://img.freepik.com/free-vector/404_23-2147738785.jpg?size=338&ext=jpg'></img>
 
-            <div className={styles.hatFoot}>Footer</div>
+            <div className={styles.hatFoot}>
+            <div className={styles.block}>
+                <div id = 'title' className={styles.block_title}>Header</div>
+                <div className={styles.block_text}>Текст</div>
+            </div>
+        </div>
         </div>
     )
   }

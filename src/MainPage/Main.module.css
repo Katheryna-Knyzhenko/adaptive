@@ -221,6 +221,10 @@
     margin-bottom: 15px;
 
 }
+.block_text span {
+    text-decoration: none;
+    color: gold;
+}
 .block_title:before {
     transform: rotate(40deg);
     left: 0;

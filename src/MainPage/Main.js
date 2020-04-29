@@ -39,7 +39,7 @@ $('#title').click(function(event) {
             <div className={styles.hatFoot}>
             <div className={styles.block}>
                 <div id = 'title' className={styles.block_title}>Footer</div>
-                <div className={styles.block_text}>Текст</div>
+                <div className={styles.block_text}>Перейти на другую страничку</div>
             </div>
         </div>
         </div>

@@ -151,7 +151,7 @@
         margin: 0 0 40px 0;
     }
 }
-@media (min-width: 1536px ) {
+@media (min-width: 1500px ) {
     .wrapper {
         min-width: 1100px;
         background-color: green !important;
@@ -215,8 +215,11 @@
     cursor: pointer;
 }
 .block_text {
-    padding:  10px 0 0 0;
+    padding:  0 0 10px 10px;
     display: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+
 }
 .block_title:before {
     transform: rotate(40deg);
@@ -237,6 +240,10 @@ content: '';
     left: 7px;
 
 }
-.block_title.active:before, .block_title.active:after {
-    background-color: red;
+.block_title.active:before {
+    transform: rotate(-40deg);
+
+}
+.block_title.active:after {
+    transform: rotate(40deg);
 }

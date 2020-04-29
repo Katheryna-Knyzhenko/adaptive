@@ -220,14 +220,21 @@
     cursor: pointer;
     margin-bottom: 15px;
 
+
 }
 .block_text span {
     text-decoration: none;
-    color: gold;
+    color: yellowgreen;
+    text-shadow: 1px 1px 1px #000;
+}
+.block_text span:hover {
+    text-shadow: 1px 1px 1px aqua;
+    color: aqua;
 }
 .block_title:before {
     transform: rotate(40deg);
     left: 0;
+
 
 }
 .block_title:after, .block_title:before {

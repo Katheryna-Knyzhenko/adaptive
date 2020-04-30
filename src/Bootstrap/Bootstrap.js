@@ -15,7 +15,7 @@ class Bootstrap extends Component {
     render() {
 
         return (
-            <div className="container">
+            <div className=".carousel">
                 <div className="row">
                     <div className="col-sm">
                         Одна из трёх колонок

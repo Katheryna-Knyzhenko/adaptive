@@ -1,7 +1,6 @@
 .wrapper {
     background: rgba(206, 171, 107, 0.2);
     min-height: 100%;
-    margin: 1em;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
@@ -36,7 +35,7 @@
     margin-left: 1.5em;
     margin-top: 1.5em;
     margin-right: 1.5em;
-    height: 15em;
+    height: 25em;
     color: snow;
     padding: 2em;
     position: relative;
@@ -50,7 +49,7 @@
 .hatFoot {
     display: flex;
     background-color: gainsboro;
-    height: 3vh;
+    height: 7em;
     padding: 2em;
     justify-content: center;
     border: greenyellow solid 5px;
@@ -58,6 +57,7 @@
     transition: .2s linear;
     flex: 0 0 auto;
     color: green;
+
 }
 
 .conteiner2 {
@@ -79,7 +79,7 @@
     border: greenyellow solid 5px;
     background-color: gainsboro;
     width: 15vw;
-    height: 15em;
+    height: 25em;
     color: snow;
     padding: 2em;
     margin-left: 1.5em;
@@ -158,7 +158,7 @@
         margin: 0 0 30px 0;
     }
     .book {
-        max-width: 100%;
+        max-width: 100% ;
         height: auto;
     }
 

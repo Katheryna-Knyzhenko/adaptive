@@ -39,8 +39,8 @@ $('#title').click(function(event) {
 
             <div className={styles.hatFoot}>
             <div className={styles.block}>
-                <div id = 'title' className={styles.block_title}>Footer</div>
-                <div className={styles.block_text}><NavLink to = "/bootstrap" style={{ textDecoration: 'none' }}><span>Перейти на другую страничку</span></NavLink></div>
+                <div id = 'title' className={styles.block_title}>Footer (Bootstrap here)</div>
+                <div className={styles.block_text}><NavLink to = "/bootstrap" style={{ textDecoration: 'none' }}><span>Перейти на страничку c Bootstrap</span></NavLink></div>
             </div>
         </div>
         </div>

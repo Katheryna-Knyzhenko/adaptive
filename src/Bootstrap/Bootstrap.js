@@ -21,15 +21,14 @@ class Bootstrap extends Component {
                     <div className="col-sm bg-warning ml-auto mr-3 p-3 height text_center">
                         Первая из трёх колонок
                     </div>
-                    <div className="col-sm bg-success ml-auto mr-3 p-3 text_center">
+                    <div className="col-sm bg-success ml-auto mr-3 p-3 text_center height1">
                         Вторая из трёх колонок
                     </div>
-                    <div className="col-sm bg-info ml-auto mr-3 p-3 text_center ">
+                    <div className="col-sm bg-info ml-auto mr-3 p-3 text_center height">
                         Третья из трёх колонок
                     </div>
                 </div>
                 <div className='button'><button type="button" className="btn btn-primary btn-lg btn-block">h</button></div>
-                <span id='span'>vdfvdfv</span>
             </div>
             </div>
         )

@@ -16,21 +16,24 @@ class Bootstrap extends Component {
 
         return (
             <div className='wrap'>
-                <div className="container">
-                <div id = "row" className="row">
-                    <div className="col-sm bg-warning ml-auto mr-3 p-3 height text_center">
-                        Первая из трёх колонок
-                    </div>
-                    <div className="col-sm bg-success ml-auto mr-3 p-3 text_center height1">
-                        Вторая из трёх колонок
-                    </div>
-                    <div className="col-sm bg-info ml-auto mr-3 p-3 text_center height">
-                        Третья из трёх колонок
-                    </div>
-                </div>
-                <div className='button'><button type="button" className="btn btn-primary btn-lg btn-block">h</button></div>
+            <div className="container wrapper mt-4">
+            <div id = "row" className="row align-items-start">
+            <div className="col-sm bg-warning ml-auto mr-3 p-3 height text_center">
+            Первая из трёх колонок
+        </div>
+        <div className="col-sm bg-success ml-4 mr-3 p-3 text_center height1">
+            Вторая из трёх колонок
+        </div>
+                <div className="w-100">
+        <div className="col-sm bg-info  ml-4  p-3 text_center height">
+            Третья из трёх колонок
+        </div>
             </div>
-            </div>
+                <div className='glyphicon glyphicon-cutlery'>f</div>
+    </div>
+    </div>
+    </div>
+
         )
     }
 }

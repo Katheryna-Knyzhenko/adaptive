@@ -1,23 +1,26 @@
-.button {
-    margin: 6em;
-}
+
 
 .wrap {
     background-color: lightgray;
-    min-height: 100%;
-    overflow: scroll;
+    min-height: 100vh;
+    overflow: auto;
     }
-.marginToCols {
-margin-right: 1em;
-    background-color: greenyellow;
-}
+
 .height {
-    height: 20em;
+    height: 25em;
+    min-width: 25em;
 }
 .text_center {
   justify-content: center;
     display: flex;
+    align-items: center;
+
 }
 .height1 {
     height: 30em;
+    width:28em;
+
+}
+.wrapper {
+    min-height: 100%;
 }

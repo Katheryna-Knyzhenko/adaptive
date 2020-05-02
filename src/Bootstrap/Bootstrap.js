@@ -15,24 +15,24 @@ class Bootstrap extends Component {
     render() {
 
         return (
-            <div className='wrap'>
-            <div className="container wrapper mt-4">
-            <div id = "row" className="row align-items-start">
-            <div className="col-sm bg-warning ml-auto mr-3 p-3 height text_center">
+            <div className="container-fluid wrapper mt-0">
+                <div className='mt-2 header'>Bootstrap grid!</div>
+            <div className="row mt-4">
+            <div className="col-sm bg-info text_center ml-3 ">
             Первая из трёх колонок
         </div>
-        <div className="col-sm bg-success ml-4 mr-3 p-3 text_center height1">
+        <div className="col-sm bg-success ml-3 mr-3 p-3 text_center ">
             Вторая из трёх колонок
         </div>
-                <div className="w-100">
-        <div className="col-sm bg-info  ml-4  p-3 text_center height">
+
+        <div className="col-sm bg-info p-3 text_center mr-3">
             Третья из трёх колонок
         </div>
             </div>
-                <div className='glyphicon glyphicon-cutlery'>f</div>
+                <div className="footer">The end</div>
     </div>
-    </div>
-    </div>
+
+
 
         )
     }

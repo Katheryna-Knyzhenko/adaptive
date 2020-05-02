@@ -8,6 +8,7 @@
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: bold;
+    border-radius: 1%;
 
 }
 .footer {
@@ -19,6 +20,7 @@
     font-size: 2rem;
     margin-top: 1em;
     font-weight: bold;
+    border-radius: 1%;
 }
 
 .text_center {
@@ -32,4 +34,9 @@
     min-height: 100vh;
     background-color: green;
 
+}
+.row > div {
+    background-color: blueviolet;
+    border-radius: 1%;
+    color: white;
 }

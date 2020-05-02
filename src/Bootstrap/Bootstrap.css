@@ -37,7 +37,7 @@
     font-size: calc(32px + 40 * ((100vw - 1024px)/1536)) ;
 
 }
-.row > div {
+.row > div:not(.footer):not(.header) {
     background-color: lightgray;
     border-radius: 2rem;
     color: green;

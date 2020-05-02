@@ -16,7 +16,7 @@ class Bootstrap extends Component {
 
         return (
             <div className="container-fluid wrapper">
-                <div className=' header'>Bootstrap grid!</div>
+                <div className='row'><div className=' header col-md-12'>Bootstrap grid!</div></div>
             <div className="row container-fluid mt-4">
             <div className="col-sm-6 col-md-5 col-lg-12 ">
             Первая из трёх колонок
@@ -29,7 +29,7 @@ class Bootstrap extends Component {
             Третья из трёх колонок
         </div>
             </div>
-                <div className="footer container-fluid">The end</div>
+                <div className='row' ><div className="footer col-md-12">The end</div></div>
     </div>
 
 

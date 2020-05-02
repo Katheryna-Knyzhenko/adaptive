@@ -27,7 +27,7 @@
   justify-content: center;
     display: flex;
     align-items: center;
-
+    margin: 1em;
 }
 
 .wrapper {
@@ -36,7 +36,11 @@
 
 }
 .row > div {
-    background-color: blueviolet;
+    background-color: lightgray;
     border-radius: 1%;
-    color: white;
+    color: green;
+    margin: 1em;
+    height: 16em;
+    font-size: 1rem;
+    font-weight: bold;
 }

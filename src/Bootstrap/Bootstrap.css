@@ -16,31 +16,34 @@
     background-color: black;
     padding: 1em;
     text-align: center;
-    min-height: 15%;
     font-size: 2rem;
     margin-top: 1em;
     font-weight: bold;
     border-radius: 1%;
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    min-height: 10vh;
+    margin-bottom: 1em;
 }
 
-.text_center {
-  justify-content: center;
-    display: flex;
-    align-items: center;
-    margin: 1em;
-}
+
 
 .wrapper {
     min-height: 100vh;
     background-color: green;
+    min-width: 100vw;
 
 }
 .row > div {
     background-color: lightgray;
     border-radius: 1%;
     color: green;
-    margin: 1em;
     height: 16em;
     font-size: 1rem;
     font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 1em;
 }

@@ -15,17 +15,17 @@ class Bootstrap extends Component {
     render() {
 
         return (
-            <div className="container-fluid wrapper mt-0">
-                <div className='mt-2 header'>Bootstrap grid!</div>
+            <div className="container-fluid wrapper">
+                <div className=' header'>Bootstrap grid!</div>
             <div className="row mt-4">
-            <div className="col-sm-12   text_center ">
+            <div className="col-sm-12 ">
             Первая из трёх колонок
         </div>
-        <div className="col-sm-12   text_center ">
+        <div className="col-sm-12 ">
             Вторая из трёх колонок
         </div>
 
-        <div className="col-sm-12    text_center ">
+        <div className="col-sm-12">
             Третья из трёх колонок
         </div>
             </div>

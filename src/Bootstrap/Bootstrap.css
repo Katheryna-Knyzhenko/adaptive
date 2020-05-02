@@ -8,7 +8,8 @@
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: bold;
-    border-radius: 1%;
+    border-radius: 2rem;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 }
 .footer {
@@ -17,14 +18,14 @@
     padding: 1em;
     text-align: center;
     font-size: 2rem;
-    margin-top: 1em;
     font-weight: bold;
-    border-radius: 1%;
+    border-radius: 2rem;
     position: relative;
     bottom: 0;
     width: 100vw;
     min-height: 10vh;
-    margin-bottom: 1em;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 40vw;
 }
 
 
@@ -33,11 +34,12 @@
     min-height: 100vh;
     background-color: green;
     min-width: 100vw;
+    font-size: calc(32px + 40 * ((100vw - 1024px)/1536)) ;
 
 }
 .row > div {
     background-color: lightgray;
-    border-radius: 1%;
+    border-radius: 2rem;
     color: green;
     height: 16em;
     font-size: 1rem;
@@ -46,4 +48,6 @@
     display: flex;
     align-items: center;
     margin: 1em;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
 }

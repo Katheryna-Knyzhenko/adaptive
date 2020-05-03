@@ -36,12 +36,12 @@ class Bootstrap extends Component {
             <div className="p-2"> column 3 </div>
         </div>
             </div>
-                <div className="card">
-                    <img className="card-img-top"  src="https://www.scitecheuropa.eu/wp-content/uploads/2019/09/Colour-bird-e1568033112774.jpg" alt="card"></img>
+                <div className="card my-card">
+                    <img className="card-img-top top"  src="https://www.scitecheuropa.eu/wp-content/uploads/2019/09/Colour-bird-e1568033112774.jpg" alt="card"></img>
                     <div className="card-body">
-                        <h4 className="card-title">Заголовок карточки</h4>
-                        <h6 className="card-subtitle mb-2 text-muted">Подзаголовок карточки</h6>
-                        <p className="card-text">Некоторый текст...</p>
+                        <h4 className="card-title">Bird one</h4>
+                        <h6 className="card-subtitle mb-2 text-muted">Птичка 1</h6>
+                        <p className="card-text text">Colourful plumage is believed to have a great function in how birds select a mate, however it could also have an impact on several other physiological processes. New research has suggested that the colourful pigment of a bird might affect its microbial resistance.</p>
                     </div>
 
                 </div>

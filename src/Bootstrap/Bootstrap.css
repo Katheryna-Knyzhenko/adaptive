@@ -96,3 +96,11 @@
 .img {
     max-width: 20%;
 }
+.my-card {
+    max-width: 50%;
+    margin: 1em;
+}
+
+.text {
+    font-size: 0.7em;
+}

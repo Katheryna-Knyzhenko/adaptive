@@ -18,15 +18,22 @@ class Bootstrap extends Component {
             <div className="container-fluid wrapper">
                 <div className='row'><div className=' header col-md-12'>Bootstrap grid!</div></div>
             <div className="row container-fluid mt-4">
-            <div className="col-sm-6 col-md-5 col-lg-12 ">
-            Первая из трёх колонок
+            <div className="col-sm-6 col-md-5 col-lg-12 d-flex flex-row align-items-start my-column">
+                <div className="p-2 " >column 1</div>
+                <div className="p-2">column 2</div>
+                <div className="p-2">column 3</div>
+
         </div>
-        <div className="col-sm-6 col-md-5 col-lg-12 ">
-            Вторая из трёх колонок
+        <div className="col-sm-6 col-md-5 col-lg-12 d-flex flex-row align-items-center my-column">
+            <div className="p-2">column 1</div>
+            <div className="p-2">column 2</div>
+            <div className="p-2">column 3</div>
         </div>
 
-        <div className="col-sm-6 col-md-12 col-lg-12">
-            Третья из трёх колонок
+        <div className="col-sm-6 col-md-12 col-lg-12 d-flex flex-row align-items-end my-column">
+            <div className="p-2">column 1</div>
+            <div className="p-2">column 2</div>
+            <div className="p-2">column 3</div>
         </div>
             </div>
                 <div className='row' ><div className="footer col-md-12">The end</div></div>

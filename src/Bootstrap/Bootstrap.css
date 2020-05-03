@@ -12,6 +12,9 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 }
+.header:hover {
+    color: green;
+}
 .footer {
     color:white;
     background-color: black;
@@ -28,7 +31,9 @@
     margin-top: 40vw;
 }
 
-
+.footer:hover {
+    color: green;
+}
 
 .wrapper {
     min-height: 100vh;
@@ -66,7 +71,9 @@
     padding: 1%;
 
 }
-
+.my-column > div:hover {
+    color: white;
+}
 @media (min-width: 310px) and (max-width: 375px){
     .my-column > div {
         font-size: 12px;

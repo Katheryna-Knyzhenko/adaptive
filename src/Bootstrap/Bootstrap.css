@@ -132,3 +132,13 @@
     .drop {
     margin-left: 10px; }
 }
+
+.inputDown {
+    max-width: 50%;
+    margin-top: 1em;
+    background-color: lightcyan;
+}
+
+.inputText {
+    min-height: 100%;
+}

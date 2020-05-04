@@ -68,7 +68,10 @@ class Bootstrap extends Component {
                         <a className="dropdown-item" role="menuitem" href="#">Something else here</a>
                     </div>
                 </div>
-
+                <div className="input-group inputDown">
+                    <span className="input-group-addon" id="basic-addon1">@</span>
+                    <input type="text" className="form-control inputText" placeholder="Username" aria-describedby="basic-addon1"/>
+                </div>
                 <div className='row' ><div className="footer col-md-12">The end</div></div>
     </div>
 

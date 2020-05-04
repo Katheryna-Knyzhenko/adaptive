@@ -53,14 +53,16 @@ class Bootstrap extends Component {
                     </div>
 
                 </div>
-                <div className="dropdown drop">
-                    <button className="btn  btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
+                <div className="dropdown drop dropright">
+                    <button className="btn btn-lg btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Кнопка <br/>выпадающего списка<span className="caret"></span>
                     </button>
                     <div className="dropdown-menu" role="menu" aria-labelledby="dropdownMenuButton">
                         <a href="#" className="dropdown-item" role="menuitem">Action</a>
+                        <div className="dropdown-divider"></div>
                         <a className="dropdown-item" role="menuitem" href="#">Another action</a>
+                        <div className="dropdown-divider"></div>
                         <a className="dropdown-item" role="menuitem" href="#">Something else here</a>
                     </div>
                 </div>

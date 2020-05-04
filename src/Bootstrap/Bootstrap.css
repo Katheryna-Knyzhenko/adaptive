@@ -122,3 +122,13 @@
 .buttonColumn1row1  span {
   font-size: 12px;
 }
+
+.drop {
+    max-width: 10%;
+    min-height: 4vh;
+    margin-left: 1em;
+}
+@media (min-width: 360px) and (max-width:414px) {
+    .drop {
+    margin-left: 10px; }
+}

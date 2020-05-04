@@ -28,7 +28,7 @@ class Bootstrap extends Component {
                 <div className="p-2"><button type="button" className="btn btn-info btn-lg buttonColumn1row1">
                     <span className="glyphicon glyphicon-leaf"></span> Читать книгу</button></div>
                 <div className="p-2"><button type="button" className="btn btn-secondary btn-lg buttonColumn1row1">
-                    <span className="glyphicon glyphicon glyphicon-folder-open"></span> Выбрать книгу</button></div>
+                    <span className="glyphicon glyphicon glyphicon-folder-open"></span>  Выбрать книгу</button></div>
 
         </div>
 
@@ -54,10 +54,10 @@ class Bootstrap extends Component {
                     </div>
 
                 </div>
-                <div className="dropdown">
-                    <button className="btn ml-5 btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
+                <div className="dropdown  drop">
+                    <button className="btn  btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Кнопка выпадающего списка
+                        Кнопка <br/>выпадающего списка
                     </button>
                     <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a href="#" className="dropdown-item" >Action</a>

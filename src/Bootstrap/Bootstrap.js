@@ -55,7 +55,7 @@ class Bootstrap extends Component {
 
                 </div>
                 <div className="dropdown">
-                    <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    <button className="btn ml-5 btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Кнопка выпадающего списка
                     </button>

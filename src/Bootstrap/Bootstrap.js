@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
 import 'jquery';
+import  'popper.js';
 import  './Bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import  'popper.js';
-
-
-
+import 'bootstrap';
+import 'bootstrap/js/dist/dropdown';
 
 
 
@@ -54,15 +53,15 @@ class Bootstrap extends Component {
                     </div>
 
                 </div>
-                <div className="dropdown  drop">
+                <div className="dropdown drop">
                     <button className="btn  btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Кнопка <br/>выпадающего списка
+                        Кнопка <br/>выпадающего списка<span className="caret"></span>
                     </button>
-                    <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a href="#" className="dropdown-item" >Action</a>
-                        <a className="dropdown-item" href="#">Another action</a>
-                        <a className="dropdown-item" href="#">Something else here</a>
+                    <div className="dropdown-menu" role="menu" aria-labelledby="dropdownMenuButton">
+                        <a href="#" className="dropdown-item" role="menuitem">Action</a>
+                        <a className="dropdown-item" role="menuitem" href="#">Another action</a>
+                        <a className="dropdown-item" role="menuitem" href="#">Something else here</a>
                     </div>
                 </div>
 

@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
-import $ from 'jquery';
+import 'jquery';
 import  './Bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import  'popper.js';
+
 
 
 
@@ -47,12 +49,22 @@ class Bootstrap extends Component {
                     <img className="card-img-top top"  src="https://www.scitecheuropa.eu/wp-content/uploads/2019/09/Colour-bird-e1568033112774.jpg" alt="card"></img>
                     <div className="card-body">
                         <h4 className="card-title cardTitle">Bird one</h4>
-                        <h6 className="card-subtitle mb-2 text-muted cardSubtitle">Птичка 1 <span className='#869-f'></span></h6>
+                        <h6 className="card-subtitle mb-2 text-muted cardSubtitle">Птичка 1</h6>
                         <p className="card-text text">Colourful plumage is believed to have a great function in how birds select a mate, however it could also have an impact on several other physiological processes. New research has suggested that the colourful pigment of a bird might affect its microbial resistance.</p>
                     </div>
 
                 </div>
-                
+                <div className="dropdown">
+                    <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Кнопка выпадающего списка
+                    </button>
+                    <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a href="#" className="dropdown-item" >Action</a>
+                        <a className="dropdown-item" href="#">Another action</a>
+                        <a className="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
 
                 <div className='row' ><div className="footer col-md-12">The end</div></div>
     </div>

@@ -38,7 +38,7 @@
 .wrapper {
     min-height: 100vh;
     background-color: green;
-    min-width: 100vw;
+    min-width: 98vw;
     font-size: calc(32px + 40 * ((100vw - 1024px)/1536)) ;
 
 }
@@ -47,7 +47,7 @@
     border-radius: 2rem;
     color: green;
     height: 16em;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     justify-content: center;
     display: flex;
@@ -94,13 +94,31 @@
     }
 }
 .img {
-    max-width: 20%;
+    max-width: 30%;
 }
 .my-card {
-    max-width: 50%;
+    max-width: 35%;
     margin: 1em;
+    max-height: 100vh;
 }
 
 .text {
-    font-size: 0.7em;
+    font-size: 0.4em;
+}
+.firstButton {
+    background-color: white;
+}
+.cardTitle {
+    font-size: 1em;
+}
+.cardSubtitle {
+    font-size: 0.6em;
+}
+.buttonColumn1row1, .buttonColumn2row1 {
+    max-width: 99%;
+    overflow:hidden;
+}
+
+.buttonColumn1row1  span {
+  font-size: 12px;
 }

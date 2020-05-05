@@ -137,12 +137,10 @@
     max-width: 50%;
     margin-top: 1em;
     background-color: lightcyan;
-    float:left;
 }
 
 .inputText {
     min-height: 100%;
-    float: left;
 }
 @media (min-width: 768px) and (max-width: 1901px){
     .font-adon {
@@ -170,19 +168,15 @@ nav ul span {
 .prog {
     margin-top: 5em;
     max-width: 50%;
-
 }
 .progr {
     width: 60%;
-    float: left;
 }
 
 .my-media {
     margin-top: 3em;
-    max-width: 40%;
+    max-width: 50%;
     background-color: lightcyan;
-    border-radius: 3%;
-    float: right;
 }
 @media (min-width: 311px) and (max-width: 760px){
     .my-media {

@@ -216,6 +216,8 @@
     display: none;
     cursor: pointer;
     margin-bottom: 15px;
+    float: left;
+
 
 
 }
@@ -254,4 +256,12 @@ content: '';
 }
 .block_title.active:after {
     transform: rotate(40deg);
+}
+
+nav ul span {
+    color: green;
+    text-decoration: green;
+    font-size: 1.5em;
+    float: right;
+    display: block;
 }

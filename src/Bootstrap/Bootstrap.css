@@ -142,6 +142,33 @@
 .inputText {
     min-height: 100%;
 }
+@media (min-width: 768px) and (max-width: 1901px){
+    .font-adon {
+        font-size: 0.35em;
+    }
+}
+@media (min-width: 311px) and (max-width: 760px) {
 .font-adon {
-    font-size: 0.35em;
+    font-size: 1em;
+    width: 10%;
+}
+}
+nav ul span {
+    color: green;
+    text-decoration: green;
+}
+.thumbnail {
+    margin: 1em;
+   width: 90%;
+}
+.thumbnail img {
+    max-width: 90%;
+    font-size: 12px;
+}
+.prog {
+    margin-top: 5em;
+    max-width: 50%;
+}
+.progr {
+    width: 60%;
 }

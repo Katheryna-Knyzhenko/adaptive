@@ -3,8 +3,9 @@ import 'jquery';
 import  'popper.js';
 import  './Bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap';
 import 'bootstrap/js/dist/dropdown';
+
+
 
 
 
@@ -32,7 +33,9 @@ class Bootstrap extends Component {
         </div>
 
         <div className="col-sm-6 col-md-5 col-lg-12 d-flex flex-row align-items-center my-column justify-content-around">
-            <div className="p-2"> column 1 </div>
+            <div className="p-2">
+                <div className="p-2"> column 1 </div>
+            </div>
             <div className="p-2"> column 2 </div>
             <div className="p-2"> column 3 </div>
         </div>
@@ -68,11 +71,28 @@ class Bootstrap extends Component {
                         <a className="dropdown-item" role="menuitem" href="#">Something else here</a>
                     </div>
                 </div>
+                <div className="progress prog">
+                    <div className="progress-bar progress-bar-warning progress-bar-striped  progr" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                         aria-valuemax="100">
+                        <span className="sr-only">60% Complete (warning)</span>60%
+                    </div>
+                </div>
                 <div className="input-group inputDown">
                     <span className="input-group-addon font-adon" id="basic-addon1">@</span>
                     <input type="text" className="form-control inputText" placeholder="Username" aria-describedby="basic-addon1"/>
                 </div>
-                <div className='row' ><div className="footer col-md-12">The end</div></div>
+
+                <div className='row' ><div className="footer col-md-12">The end
+                    <nav aria-label="Page navigation">
+                        <ul className="pagination justify-content-around">
+                            <li>
+                                <a href="http://localhost:3000/" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav></div></div>
+
     </div>
 
 

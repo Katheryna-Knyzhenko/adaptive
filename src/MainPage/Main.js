@@ -39,7 +39,17 @@ $('#title').click(function(event) {
 
             <div className={styles.hatFoot}>
             <div className={styles.block}>
-                <div id = 'title' className={styles.block_title}>Footer (Bootstrap here)</div>
+                <div id = 'title' className={styles.block_title}>Footer (Bootstrap here)
+                    {/*<nav aria-label="Page navigation">*/}
+                    {/*    <ul className="pagination">*/}
+                    {/*        <li>*/}
+                    {/*            <a href="http://localhost:3000/bootstrap" aria-label="Next">*/}
+                    {/*                <span aria-hidden="true">&raquo;</span>*/}
+                    {/*            </a>*/}
+                    {/*        </li>*/}
+                    {/*    </ul>*/}
+                    {/*</nav>*/}
+                </div>
                 <div className={styles.block_text}><NavLink to = "/bootstrap" style={{ textDecoration: 'none' }}><span>Перейти на страничку c Bootstrap</span></NavLink></div>
             </div>
         </div>

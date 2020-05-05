@@ -172,3 +172,31 @@ nav ul span {
 .progr {
     width: 60%;
 }
+
+.my-media {
+    margin-top: 3em;
+    max-width: 50%;
+}
+@media (min-width: 311px) and (max-width: 760px){
+    .my-media {
+        max-width: 50%;
+        font-size: 13px;
+    }
+    .media-img {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1901px) {
+    .my-media {
+        max-width: 50%;
+        font-size: 0.4em;
+    }
+}
+
+.media-img {
+    border-radius: 50%;
+}
+.title {
+    font-size: 1em;
+}

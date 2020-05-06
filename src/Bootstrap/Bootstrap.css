@@ -67,6 +67,7 @@
     border: solid 2px;
     background-color: greenyellow;
     border-radius: 3%;
+    padding-bottom: 2em;
 }
 .my-col-2 {
     margin-right:  2em;
@@ -92,13 +93,15 @@
 .my-column > div:hover {
     color: white;
 }
-@media (min-width: 310px) and (max-width: 375px){
+@media (min-width: 310px) and (max-width: 760px){
     .my-column > div {
         font-size: 12px;
         padding: 1em;
         margin: 0.5em;
-
-
+    }
+    .my-col-1, .my-col-2 {
+        margin-bottom: 2em;
+        padding-bottom: 2em;
     }
 }
 
@@ -110,6 +113,7 @@
         margin: 10px;
         height: 40%;
     }
+
 }
 .img {
     max-width: 30%;

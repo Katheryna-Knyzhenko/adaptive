@@ -63,17 +63,21 @@
     border-radius: 3%;
 }
 .my-col-1 {
+    margin-top: 0.5em;
     margin-right:  1em;
-    border: solid 2px;
-    background-color: greenyellow;
+    background-color: black;
     border-radius: 3%;
     padding-bottom: 2em;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
 }
 .my-col-2 {
+    margin-top: 0.5em;
     margin-right:  2em;
-    border: solid 2px;
-    background-color: greenyellow;
+    background-color: black;
     border-radius: 3%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
 }
 .my-column > div {
     background-color: black;
@@ -122,6 +126,7 @@
     max-width: 65%;
     margin: 1em;
     max-height: 100vh;
+    border-radius: 3%;
 }
 
 .text {
@@ -129,6 +134,10 @@
 }
 .firstButton {
     background-color: white;
+}
+.my-card-body {
+    background-color: green;
+    color: white;
 }
 .cardTitle {
     font-size: 1em;
@@ -203,7 +212,8 @@ nav ul span {
 
 .my-media {
     margin-top: 3em;
-    background-color: lightcyan;
+    background-color: green;
+    border-radius: 3%;
 }
 @media (min-width: 311px) and (max-width: 760px){
     .my-media {

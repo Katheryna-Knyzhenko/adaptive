@@ -51,7 +51,7 @@ class Bootstrap extends Component {
     <div className='col my-col-1 ml-3 '>
                 <div className="card my-card">
                     <img className="card-img-top top"  src="https://www.scitecheuropa.eu/wp-content/uploads/2019/09/Colour-bird-e1568033112774.jpg" alt="card"></img>
-                    <div className="card-body">
+                    <div className="card-body my-card-body">
                         <h4 className="card-title cardTitle">Bird one</h4>
                         <h6 className="card-subtitle mb-2 text-muted cardSubtitle">Птичка 1</h6>
                         <p className="card-text text">Colourful plumage is believed to have a great function in how birds select a mate, however it could also have an impact on several other physiological processes. New research has suggested that the colourful pigment of a bird might affect its microbial resistance.</p>
@@ -74,7 +74,7 @@ class Bootstrap extends Component {
                     </div>
                 </div>
     </div>
-    <div className= 'col my-col-2 ml-1 mr-3 '>
+    <div className= 'col my-col-2 ml-1 mr-3 pl-5'>
                 <div className="progress prog">
                     <div className="progress-bar  progress-bar-striped  progr" role="progressbar" aria-valuenow="60" aria-valuemin="0"
                          aria-valuemax="100">

@@ -48,7 +48,7 @@ class Bootstrap extends Component {
             </div>
                 <div className="container-fluid my-container-2">
                 <div className='row row-2'>
-    <div className='col my-col-1 ml-3'>
+    <div className='col my-col-1 ml-3 '>
                 <div className="card my-card">
                     <img className="card-img-top top"  src="https://www.scitecheuropa.eu/wp-content/uploads/2019/09/Colour-bird-e1568033112774.jpg" alt="card"></img>
                     <div className="card-body">
@@ -74,9 +74,9 @@ class Bootstrap extends Component {
                     </div>
                 </div>
     </div>
-    <div className= 'col my-col-2 ml-1 mr-3'>
+    <div className= 'col my-col-2 ml-1 mr-3 '>
                 <div className="progress prog">
-                    <div className="progress-bar progress-bar-warning progress-bar-striped  progr" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                    <div className="progress-bar  progress-bar-striped  progr" role="progressbar" aria-valuenow="60" aria-valuemin="0"
                          aria-valuemax="100">
                         <span className="sr-only">60% Complete (warning)</span>60%
                     </div>

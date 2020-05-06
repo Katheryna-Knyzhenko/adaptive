@@ -56,12 +56,23 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 }
-.row-2 div {
-    background-color: lightgray;
+.row-2 {
+    background-color: green;
+}
+.row-2:first-child{
     border-radius: 3%;
 }
 .my-col-1 {
-    background-color: lightcyan;
+    margin-right:  1em;
+    border: solid 2px;
+    background-color: greenyellow;
+    border-radius: 3%;
+}
+.my-col-2 {
+    margin-right:  2em;
+    border: solid 2px;
+    background-color: greenyellow;
+    border-radius: 3%;
 }
 .my-column > div {
     background-color: black;
@@ -178,10 +189,12 @@ nav ul span {
 .prog {
     margin-top: 5em;
     max-width: 50%;
+    background-color: blueviolet;
 
 }
 .progr {
     width: 60%;
+    background-color: #D2973D;
 }
 
 .my-media {
@@ -218,7 +231,4 @@ nav ul span {
     border-radius: 3%;
     margin-top: 2em;
     margin-right: 1em;
-}
-.my-cols {
-    background-color: green;
 }

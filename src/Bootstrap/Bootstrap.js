@@ -16,11 +16,11 @@ class Bootstrap extends Component {
     }
 
     render() {
-
+        console.log("Hello World");
         return (
             <div className="container-fluid wrapper">
-                <div className='row'><div className=' header col-md-12'>Bootstrap grid!</div></div>
-            <div className="row container-fluid mt-4">
+                <div className='row '><div className=' header col-md-12'>Bootstrap grid!</div></div>
+            <div className="row row-1 container-fluid mt-4">
             <div className="col-sm-6 col-md-5 col-lg-12 d-flex flex-row align-items-start my-column justify-content-start">
                 <div className="p-2"><button type="button" className="btn btn-danger btn-lg buttonColumn1row1">
                     <span className="glyphicon glyphicon-star"></span> Избранное</button>
@@ -46,7 +46,9 @@ class Bootstrap extends Component {
             <div className="p-2"> column 3 </div>
         </div>
             </div>
-
+                <div className="container-fluid my-container-2">
+                <div className='row row-2'>
+    <div className='col my-col-1 ml-3'>
                 <div className="card my-card">
                     <img className="card-img-top top"  src="https://www.scitecheuropa.eu/wp-content/uploads/2019/09/Colour-bird-e1568033112774.jpg" alt="card"></img>
                     <div className="card-body">
@@ -56,7 +58,7 @@ class Bootstrap extends Component {
                     </div>
 
                 </div>
-                <div className="btn-group dropright drop">
+                <div className="btn-group dropright drop mb-4">
                     <button type="button" className="btn btn-danger btn-lg">Выпадающий список</button>
                     <button className="btn btn-lg btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -71,6 +73,8 @@ class Bootstrap extends Component {
                         <a className="dropdown-item" role="menuitem" href="#">Something else here</a>
                     </div>
                 </div>
+    </div>
+    <div className= 'col my-col-2 ml-1 mr-3'>
                 <div className="progress prog">
                     <div className="progress-bar progress-bar-warning progress-bar-striped  progr" role="progressbar" aria-valuenow="60" aria-valuemin="0"
                          aria-valuemax="100">
@@ -93,7 +97,9 @@ class Bootstrap extends Component {
                     <span className="input-group-addon font-adon" id="basic-addon1">@</span>
                     <input type="text" className="form-control inputText" placeholder="Username" aria-describedby="basic-addon1"/>
                 </div>
-
+</div>
+</div>
+                </div>
                 <div className='row' ><div className="footer col-md-12">The end
                     <nav aria-label="Page navigation">
                         <ul className="pagination justify-content-around">

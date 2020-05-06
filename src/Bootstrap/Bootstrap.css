@@ -42,7 +42,7 @@
     font-size: calc(32px + 40 * ((100vw - 1024px)/1536)) ;
 
 }
-.row > div:not(.footer):not(.header) {
+.row-1 > div:not(.footer):not(.header) {
     background-color: lightgray;
     border-radius: 2rem;
     color: green;
@@ -55,6 +55,13 @@
     margin: 1em;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
+}
+.row-2 div {
+    background-color: lightgray;
+    border-radius: 3%;
+}
+.my-col-1 {
+    background-color: lightcyan;
 }
 .my-column > div {
     background-color: black;
@@ -97,7 +104,7 @@
     max-width: 30%;
 }
 .my-card {
-    max-width: 35%;
+    max-width: 65%;
     margin: 1em;
     max-height: 100vh;
 }
@@ -136,11 +143,14 @@
 .inputDown {
     max-width: 50%;
     margin-top: 1em;
-    background-color: lightcyan;
+    background-color: blue;
 }
 
 .inputText {
     min-height: 100%;
+}
+.inputDown span {
+    background-color: green;
 }
 @media (min-width: 768px) and (max-width: 1901px){
     .font-adon {
@@ -168,6 +178,7 @@ nav ul span {
 .prog {
     margin-top: 5em;
     max-width: 50%;
+
 }
 .progr {
     width: 60%;
@@ -175,12 +186,11 @@ nav ul span {
 
 .my-media {
     margin-top: 3em;
-    max-width: 50%;
     background-color: lightcyan;
 }
 @media (min-width: 311px) and (max-width: 760px){
     .my-media {
-        max-width: 50%;
+        max-width: 90%;
         font-size: 13px;
     }
     .media-img {
@@ -190,7 +200,7 @@ nav ul span {
 
 @media (min-width: 768px) and (max-width: 1901px) {
     .my-media {
-        max-width: 50%;
+        max-width: 90%;
         font-size: 0.4em;
     }
 }
@@ -208,4 +218,7 @@ nav ul span {
     border-radius: 3%;
     margin-top: 2em;
     margin-right: 1em;
+}
+.my-cols {
+    background-color: green;
 }

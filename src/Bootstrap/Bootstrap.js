@@ -89,7 +89,7 @@ class Bootstrap extends Component {
                     </div>
                     <div className="media-body ml-5 my-media-body">
                         <h4 className="media-heading media-title">Birdy</h4>
-                        <p>Приветик! А я птичка! Чирик-Чирик-Чирик тебе.
+                        <p className='media-text'>Приветик! А я птичка! Чирик-Чирик-Чирик тебе.
                         Как ты, чего не пишешь мне так долго, а?</p>
                     </div>
                 </div>

@@ -26,7 +26,7 @@
     position: relative;
     bottom: 0;
     width: 100vw;
-    min-height: 10vh;
+    max-height: 12vh;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     margin-top: 40vw;
 }
@@ -65,7 +65,7 @@
 .my-col-1 {
     margin-top: 0.5em;
     margin-right:  1em;
-    background-color: black;
+    background-color: gainsboro;
     border-radius: 3%;
     padding-bottom: 2em;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -74,7 +74,7 @@
 .my-col-2 {
     margin-top: 0.5em;
     margin-right:  2em;
-    background-color: black;
+    background-color: lightgray;
     border-radius: 3%;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
@@ -218,11 +218,15 @@ nav ul span {
 @media (min-width: 311px) and (max-width: 760px){
     .my-media {
         max-width: 90%;
-        font-size: 13px;
+        font-size: 10px;
     }
     .media-img {
         max-width: 90%;
+        margin: 0;
     }
+.media-text {
+    margin-left: 0;
+}
 }
 
 @media (min-width: 768px) and (max-width: 1901px) {

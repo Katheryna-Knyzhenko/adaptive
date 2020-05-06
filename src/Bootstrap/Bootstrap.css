@@ -107,6 +107,12 @@
         margin-bottom: 2em;
         padding-bottom: 2em;
     }
+    .my-card-body {
+        font-size: 2em;
+    }
+    .my-card {
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 812px) {
@@ -123,7 +129,7 @@
     max-width: 30%;
 }
 .my-card {
-    max-width: 65%;
+    max-width: 90%;
     margin: 1em;
     max-height: 100vh;
     border-radius: 3%;
@@ -218,7 +224,8 @@ nav ul span {
 @media (min-width: 311px) and (max-width: 760px){
     .my-media {
         max-width: 90%;
-        font-size: 10px;
+        font-size: 1rem;
+
     }
     .media-img {
         max-width: 90%;
@@ -234,6 +241,11 @@ nav ul span {
         max-width: 90%;
         font-size: 0.4em;
     }
+}
+@media (min-width: 411px) and (max-width: 414px) {
+.row-2 {
+    width: 100%;
+}
 }
 
 .media-img {

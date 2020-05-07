@@ -4,6 +4,7 @@ import  'popper.js';
 import  './Bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/js/dist/dropdown';
+import {NavLink} from "react-router-dom";
 
 
 
@@ -36,7 +37,7 @@ class Bootstrap extends Component {
             <div className="p-2">
                 <div className="p-2"> column 1 </div>
             </div>
-            <div className="p-2"> column 2 </div>
+            <div className="p-2"><NavLink to = "/gulpLearning" style={{ textDecoration: 'none' }}><span>Перейти на страничку с Gulp</span></NavLink> </div>
             <div className="p-2"> column 3 </div>
         </div>
 

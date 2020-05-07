@@ -31,7 +31,8 @@ var sass = require('gulp-sass');
 function copyToCss (done) {
     gulp.src('./src/scss/learnGulp.scss')
         .pipe(sass({
-            errorLogToConsole: false
+            errorLogToConsole: true,
+            outputStyle: 'compressed'
         }))
         .on('error', console.error.bind(console))
         .pipe(rename({suffix: '.min'}))

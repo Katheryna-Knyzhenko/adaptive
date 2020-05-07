@@ -26,13 +26,18 @@
 // var mainPageFolder = 'MainPage/';
 // var srcFolder = 'src/';
 var gulp = require('gulp');
-function defaultSomeTask (done) {
-    console.log('Gulp is working');
-    done();
+var rename = require('gulp-rename');
+var sass = require('gulp-sass');
+function copyToCss (done) {
+    gulp.src('./src/scss/learnGulp.scss')
+        .pipe(sass({
+            errorLogToConsole: false
+        }))
+        .on('error', console.error.bind(console))
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('./src/css/'));
+done();
 }
-function printHi (done) {
-    console.log('Hello World');
-    done();
-}
-gulp.task(printHi);
-gulp.task('default', defaultSomeTask);
+
+gulp.task(copyToCss);
+

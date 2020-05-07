@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../css/learnGulp.css';
+import '../css/learnGulp.min.css';
 
 class GulpLearning extends Component {
     constructor() {

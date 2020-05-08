@@ -9,9 +9,10 @@ class GulpLearning extends Component {
 
     render() {
         return (
-            <div>
+            <div className='wrapper-1'>
             <h1>Gulp here now!</h1>
-                <div>Привет</div>
+                <div className='textAfterH1'>Привет</div>
+                <p className= 'firstP'>Я Катя</p>
             </div>
         )
     }

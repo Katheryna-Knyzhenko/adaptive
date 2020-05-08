@@ -21,6 +21,10 @@ function copyToCss (done) {
         .pipe(gulp.dest('./src/css/'));
 done();
 }
+function print (done) {
+    console.log('Hi print!');
+    done();
+}
+// gulp.task(copyToCss);
 
-gulp.task(copyToCss);
-
+gulp.task('default', gulp.series(copyToCss, print));

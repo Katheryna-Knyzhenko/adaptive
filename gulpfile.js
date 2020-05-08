@@ -5,7 +5,7 @@ var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 function copyToCss (done) {
-    gulp.src('./src/scss/learnGulp.scss')
+    gulp.src('./src/scss/**/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass({
             errorLogToConsole: true,
@@ -26,5 +26,8 @@ function print (done) {
     done();
 }
 // gulp.task(copyToCss);
+function watchSass () {
+    gulp.watch('./src/scss/**/*', copyToCss);
+}
 
-gulp.task('default', gulp.series(copyToCss, print));
+gulp.task('default', gulp.series(print, watchSass));

@@ -4,8 +4,8 @@ var rename = require('gulp-rename');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
-var browserSync = require('browser-sync');
-browserSync.create();
+var browserSync = require('browser-sync').create();
+
 function copyToCss (done) {
     gulp.src('./src/scss/**/*.scss')
         .pipe(sourcemaps.init())
@@ -34,9 +34,11 @@ function watchSass () {
 function sync (done) {
     browserSync.init({
         server: {
-            baseDir: "src"
+            baseDir: "./"
         },
-        port: 3000
+        port: 9000,
+        open: true,
+        notify: false
     });
     done();
 }

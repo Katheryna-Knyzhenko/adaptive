@@ -34,12 +34,13 @@ function watchSass () {
 function sync (done) {
     browserSync.init({
         server: {
-            baseDir: "./"
+            baseDir: "./public/"
         },
         port: 9000,
-        open: true,
+        tunnel: true,
         notify: false
     });
+    browserSync.watch('out/').on('change', browserSync.reload);
     done();
 }
 gulp.task('default', gulp.series(print, watchSass));
